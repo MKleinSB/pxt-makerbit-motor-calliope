@@ -9,5 +9,5 @@
   "makerbit.stopMotor|block": "stop motor %motor",
   "makerbit|block": "MakerBit",
   "{id:category}Makerbit": "Makerbit",
-  "{id:subcategory}Motors": "Motors"
+  "{id:subcategory}MBMotors": "Motors"
 }
