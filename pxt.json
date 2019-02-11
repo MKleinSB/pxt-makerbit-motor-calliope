@@ -1,17 +1,19 @@
 {
-    "name": "pxt-makerbit-motor-calliope",
-    "version": "0.0.1",
-    "description": "",
+    "name": "MakerBit-Motor",
+    "version": "0.0.6",
+    "description": "Motor controller for MakerBit",
+    "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
+        "namespace.ts",
         "README.md",
-        "main.ts"
+        "motor.ts",
+        "_locales/de/MakerBit-Motor-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": false
+    "public": true
 }
