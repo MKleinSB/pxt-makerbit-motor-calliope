@@ -39,7 +39,7 @@ makerbit.stopMotor(Motor.A)
 Sets the rotation direction of a motor. Use this function at start time to configure your motors without the need to rewire.
 
 ```sig
-makerbit.setMotorRotation(Motor.A, MotorDirection.CounterClockwise)
+makerbit.setMotorRotation(Motor.A, MotorDirection.Backward)
 ```
 
 ## License
