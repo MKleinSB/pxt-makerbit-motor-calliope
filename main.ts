@@ -1,4 +1,4 @@
-const enum Motor {    // Todo: Pins genauer lokalisieren & ändern  
+const enum Motor {      
     //% block="A"     // A kollidiert mit dem Button A des Calliope Mini
     MotorA = 0,
     //% block="B"     // B ebenso
@@ -38,16 +38,16 @@ namespace makerbit {
 
         if (motor === Motor.MotorA || motor === Motor.MotorAll) {
             const isClockwise = speed * motorRotations[Motor.MotorA] > 0;
-            pins.digitalWritePin(DigitalPin.P11, isClockwise ? 1 : 0);
-            pins.digitalWritePin(DigitalPin.P12, isClockwise ? 0 : 1);
-            pins.analogWritePin(AnalogPin.P13, analogSpeed);
+            pins.digitalWritePin(14, isClockwise ? 1 : 0); //P11
+            pins.digitalWritePin(13, isClockwise ? 0 : 1); //P12
+            pins.analogWritePin(11, analogSpeed);          //P13
         }
 
         if (motor === Motor.MotorB || motor === Motor.MotorAll) {
             const isClockwise = speed * motorRotations[Motor.MotorB] > 0;
-            pins.digitalWritePin(DigitalPin.P15, isClockwise ? 1 : 0);
-            pins.digitalWritePin(DigitalPin.P16, isClockwise ? 0 : 1);
-            pins.analogWritePin(AnalogPin.P14, analogSpeed);
+            pins.digitalWritePin(19, isClockwise ? 1 : 0); //P15
+            pins.digitalWritePin(23, isClockwise ? 0 : 1); //P16
+            pins.analogWritePin(17, analogSpeed);          //P14
         }
     }
 
@@ -60,15 +60,15 @@ namespace makerbit {
     //% weight=89
     export function stopMotor(motor: Motor): void {
         if (motor === Motor.MotorA || motor === Motor.MotorAll) {
-            pins.digitalWritePin(DigitalPin.P11, 0);
-            pins.digitalWritePin(DigitalPin.P12, 0);
-            pins.digitalWritePin(DigitalPin.P13, 0);
+            pins.digitalWritePin(14, 0); //P11
+            pins.digitalWritePin(13, 0); //P12
+            pins.digitalWritePin(11, 0); //P13
         }
 
         if (motor === Motor.MotorB || motor === Motor.MotorAll) {
-            pins.digitalWritePin(DigitalPin.P15, 0);
-            pins.digitalWritePin(DigitalPin.P16, 0);
-            pins.digitalWritePin(DigitalPin.P14, 0);
+            pins.digitalWritePin(19, 0); //P15
+            pins.digitalWritePin(23, 0); //P16
+            pins.digitalWritePin(17, 0); //P14
         }
     }
 
