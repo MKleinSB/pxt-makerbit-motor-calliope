@@ -23,7 +23,7 @@ namespace makerbit {
      * @param motor motor, eg: Motor.MotorA
      * @param speed percentage in the range of -100 to 100, eg: 80
      */
-    //% subcategory=Motors
+    //% subcategory=MBMotors // subcategory geändert wegen Vermischung mit Calliope Mini Motorblöcken
     //% blockId="makerbit_motor_run" block="run motor %motor | at speed %speed"
     //% speed.min=-100 speed.max=100
     //% weight=90
@@ -55,7 +55,7 @@ namespace makerbit {
      * Stops a motor.
      * @param motor motor, eg: Motor.MotorA
      */
-    //% subcategory=Motors
+    //% subcategory=MBMotors
     //% blockId="makerbit_motor_stop" block="stop motor %motor"
     //% weight=89
     export function stopMotor(motor: Motor): void {
@@ -77,7 +77,7 @@ namespace makerbit {
      * @param motor motor, eg: Motor.MotorA
      * @param rotation rotation of the motor, eg: MotorDirection.Clockwise
      */
-    //% subcategory=Motors
+    //% subcategory=MBMotors
     //% blockId=makerbit_motor_set_direction block="set motor %motor rotation | to %rotation"
     //% weight=88
     export function setMotorRotation(motor: Motor, rotation: MotorRotation) {
