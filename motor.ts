@@ -73,7 +73,8 @@ namespace makerbit {
     }
 
     /**
-     * Sets the direction of a motor.
+     * Sets the rotation direction of a motor. Use this function at start time to configure your motors 
+     * without the need to rewire.
      * @param motor motor, eg: Motor.MotorA
      * @param rotation rotation of the motor, eg: MotorDirection.Clockwise
      */
