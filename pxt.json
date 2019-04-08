@@ -1,6 +1,6 @@
 {
     "name": "MakerBit-Motor-Calliope",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "Motor controller for MakerBit and Calliope Mini",
     "license": "MIT",
     "dependencies": {
@@ -10,7 +10,7 @@
         "namespace.ts",
         "README.md",
         "motor.ts",
-        "_locales/de/MakerBit-Motor-strings.json"
+        "_locales/de/MakerBit-Motor-calliope-strings.json"
     ],
     "testFiles": [
         "test.ts"
