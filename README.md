@@ -1,6 +1,6 @@
 # MakerBit Motor
 
-[![Build Status](https://travis-ci.org/1010Technologies/pxt-makerbit-motor.svg?branch=master)](https://travis-ci.org/1010Technologies/pxt-makerbit-motor)
+[![Build Status](https://travis-ci.org/MKleinSB/pxt-makerbit-motor-calliope.svg?branch=master)](https://travis-ci.org/MKleinSB/pxt-makerbit-motor-calliope)
 
 MakeCode package for the MakerBit motor driver.
 
