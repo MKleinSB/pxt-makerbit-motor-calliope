@@ -4,7 +4,7 @@
   "Motor.B|block": "B",
   "MotorRotation.Clockwise|block": "rechtsdrehend",
   "MotorRotation.CounterClockwise|block": "linksdrehend",
-  "makerbit.runMotor|block": "schalte Motor %motor | auf Leistung %speed",
+  "makerbit.runMotor|block": "schalte Motor %motor | auf Leistung %speed=speedPicker \\%",
   "makerbit.setMotorRotation|block": "setze Motor %motor Rotation | auf %rotation",
   "makerbit.stopMotor|block": "stoppe Motor %motor",
   "makerbit|block": "MakerBit",
