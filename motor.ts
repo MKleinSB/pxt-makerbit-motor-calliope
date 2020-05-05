@@ -1,4 +1,4 @@
-const enum Motor {      
+const enum Motor {
     //% block="A"     // A kollidiert mit dem Button A des Calliope Mini
     MotorA = 0,
     //% block="B"     // B ebenso
@@ -24,7 +24,7 @@ namespace makerbit {
      * @param speed percentage in the range of -100 to 100, eg: 80
      */
     //% subcategory=MBMotors // subcategory geändert wegen Vermischung mit Calliope Mini Motorblöcken
-    //% blockId="makerbit_motor_run" block="run motor %motor | at speed %speed"
+    //% blockId="makerbit_motor_run" block="run motor %motor | at speed %speed=speedPicker \\%"
     //% speed.min=-100 speed.max=100
     //% weight=90
     export function runMotor(motor: Motor, speed: number): void {
