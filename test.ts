@@ -2,14 +2,14 @@
  * Motor tests
  */
 
-makerbit.runMotor(Motor.MotorA, 80);
-makerbit.stopMotor(Motor.MotorA);
+makerbit.runMotor(mbMotor.MotorA, 80);
+makerbit.stopMotor(mbMotor.MotorA);
 
-makerbit.runMotor(Motor.MotorB, -50);
-makerbit.stopMotor(Motor.MotorB);
+makerbit.runMotor(mbMotor.MotorB, -50);
+makerbit.stopMotor(mbMotor.MotorB);
 
-makerbit.runMotor(Motor.MotorAll, 80);
-makerbit.stopMotor(Motor.MotorAll);
+makerbit.runMotor(mbMotor.MotorAll, 80);
+makerbit.stopMotor(mbMotor.MotorAll);
 
-makerbit.setMotorRotation(Motor.MotorA, MotorRotation.Clockwise);
-makerbit.setMotorRotation(Motor.MotorB, MotorRotation.CounterClockwise);
+makerbit.setMotorRotation(mbMotor.MotorA, MotorRotation.Clockwise);
+makerbit.setMotorRotation(mbMotor.MotorB, MotorRotation.CounterClockwise);
