@@ -1,6 +1,6 @@
 {
     "name": "MakerBit-Motor-Calliope",
-    "version": "0.0.15",
+    "version": "0.0.16",
     "description": "Motor controller for MakerBit and Calliope Mini",
     "license": "MIT",
     "dependencies": {
