@@ -1,5 +1,5 @@
 {
-  "mbMotor.All|block": "A + B",
+  "mbMotor.All|block": "A und B",
   "mbMotor.A|block": "A",
   "mbMotor.B|block": "B",
   "MotorRotation.Clockwise|block": "rechtsdrehend",
